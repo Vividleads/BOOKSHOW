@@ -3,7 +3,8 @@ This project was done with the above tools, including Tailwind css and Google bo
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 # API
-A Google books API key was
+A Google books API key was 
+generated particularly for this project and it demonstrates the use of API's in a very 
 
 
 
