@@ -1,7 +1,7 @@
 import React from 'react'
 import FloatingParticle from './FloatingParticle'
-import { BookOpenIcon, CommandLineIcon, GlobeAltIcon } from '@heroicons/react/24/solid'
-import {Github, Twitter , MessageSquare, Instagram} from 'lucide-react'
+import { BookOpenIcon, CommandLineIcon, GlobeAltIcon } from '@heroicons/react/24/solid';
+import {Github, Twitter , MessageSquare, Instagram} from 'lucide-react';
 const footer = () => {
   return (
      <footer className='relative bg-gradient-to-b from-gray-900 to-gray-900/95 backdrop-blur-2xl border-t border-t-gray-800'>
@@ -76,7 +76,7 @@ const footer = () => {
                         </div>
                     </div>
                 </div>
-                {/* social links */}
+                {/* my social links */}
                 <div className='space-y-4 text-center sm:text-left'>
                     <h3 className='text-lg font-semibold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text 
                    text-transparent'>
