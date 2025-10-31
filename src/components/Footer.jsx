@@ -2,6 +2,8 @@ import React from 'react'
 import FloatingParticle from './FloatingParticle'
 import { BookOpenIcon, CommandLineIcon, GlobeAltIcon } from '@heroicons/react/24/solid';
 import {Github, Twitter , MessageSquare, Instagram} from 'lucide-react';
+
+
 const footer = () => {
   return (
      <footer className='relative bg-gradient-to-b from-gray-900 to-gray-900/95 backdrop-blur-2xl border-t border-t-gray-800'>
