@@ -89,8 +89,10 @@ const Navbar = (handleSearch) => {
           {/* AVATAR SECTION */}
           <div className="flex items-center space-x-4 order-2 md:order-3 ml-auto md:ml-0">
             <button className="relative p-1 group hover:scale-105 transition-transform ">
+                
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur 
               opacity-30 group-hover:opacity-50 transition-opacity "/>
+                
               <div className=" relative flex items-center justify-center h-8 w-8 md:h-10 md:w-10 rounded-full
               bg-gray-900/80 border-2 border-cyan-300/20 group-hover:border-cyan-300/40 
               backdrop-blur-sm overflow-hidden">
@@ -110,6 +112,6 @@ const Navbar = (handleSearch) => {
    <FloatingParticle/>
   </nav>
 )
-}
+};
 
 export default Navbar;
