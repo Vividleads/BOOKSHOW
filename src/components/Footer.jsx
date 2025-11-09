@@ -1,5 +1,5 @@
-import React from 'react'
-import FloatingParticle from './FloatingParticle'
+import React from 'react';
+import FloatingParticle from './FloatingParticle';
 import { BookOpenIcon, CommandLineIcon, GlobeAltIcon } from '@heroicons/react/24/solid';
 import {Github, Twitter , MessageSquare, Instagram} from 'lucide-react';
 
@@ -100,7 +100,7 @@ const footer = () => {
                             </span>
                             <Icon className='h-6 w-6 md:h-8 md:w-8' stroke='currentColor'/>
                          </a>
-                      ))}
+                      ))};
                    </div>
                 </div>
  
@@ -130,6 +130,6 @@ const footer = () => {
 
      </footer>
   )
-}
+};
 
 export default footer;
