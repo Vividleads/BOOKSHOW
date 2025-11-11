@@ -1,4 +1,4 @@
-# React + Vite 
+# React + Vite + Google books api
 This project was done with the above tools, including Tailwind css and Google books API.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
